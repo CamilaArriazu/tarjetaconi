@@ -113,7 +113,7 @@ h2 {
   */
 
 main {
-    background-image: url("../multimedia/portada.jpg");
+    background-image: url("../multimedia/portada.jpeg");
     /* filter:sepia(30%) ;*/
     /*   filter: grayscale(1) blur(1px) contrast(1) sepia(0.5) blur(0.25px);*/
     /* -webkit-mask: radial-gradient(#000, #000a); */
