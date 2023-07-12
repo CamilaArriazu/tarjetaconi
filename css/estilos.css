@@ -1,4 +1,5 @@
 * {
+
    font-family: 'Quicksand', sans-serif;
 }
 
@@ -61,10 +62,11 @@ h2 {
         'opsz' 48
 }
 
+/*
 .ornamentoClass {
     visibility: visible;
     width: 15rem;
-}
+}*/
 
 .textCentral {
     font-family: "Cormorant Garamond", Sans-serif;
@@ -121,7 +123,7 @@ main {
     background-position: center;
     padding-top: 300px;
     padding-bottom: 400px;
-    height: auto;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,7 +175,9 @@ h3 {
     padding-bottom: 400px;
     height: 300px;
 }
-
+.seccionCentral{
+    
+}
 .horaClass h3 {
     text-align: center;
     color: #4B4B4B;
@@ -226,7 +230,7 @@ h3 {
     justify-content: center;
     justify-self: center;
     justify-items: center;
-    max-width: 70%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
     letter-spacing: .7px;
@@ -272,7 +276,13 @@ form{
     border: solid 1px white;
     padding: white;
 }*/
-
+.imgClass1{
+    display: block;
+}
+.imgClass2{
+    display:none;
+}
+/* 
 .imgClass{
       
     background: url("../multimedia/fondo1366w.jpg");
@@ -282,7 +292,7 @@ form{
     height: 800px;
     width: 1500px;
   
-}
+} */
 
 /*
 .imagenFondo2{
@@ -298,6 +308,10 @@ form{
     -moz-background-size: cover;
     background-size: cover;
 }*/
+
+#typ{
+    margin-bottom: 2rem;
+}
 
 .fotoClass {
     display: grid;
@@ -353,7 +367,7 @@ button a{
 }
 
 .presencia{
-    background-image: url("../multimedia/Diseño\ sin\ título\ \(4\).png");
+    background-image: url("../multimedia/DiseñoFondo.png");
     background-size: cover;
     background-position: center;
     padding-top: 300px;

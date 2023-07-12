@@ -1,7 +1,26 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 700px) {
-  
-    
+    main {
+        
+        /* filter:sepia(30%) ;*/
+        /*   filter: grayscale(1) blur(1px) contrast(1) sepia(0.5) blur(0.25px);*/
+        /* -webkit-mask: radial-gradient(#000, #000a); */
+        background-size: cover;
+        background-position: center;
+        padding-top: 200px;
+        padding-bottom: 200px;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center{
+        max-width: 80%;
+        text-align: center;
+        margin: auto;
+    }
      .centradorow {
         display: flex;
         flex-direction: column;
@@ -10,7 +29,28 @@
      }
      .centradoDireccion {
         margin-bottom: 2rem;
+        text-align: center;
     }
+    .imgClass1{
+        display: none;
+    }
+    .imgClass2{
+        display:block;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+     
+    }
+    .contenedorPadrinos {
+        grid-template-columns:100%;
+    }
+
+    .contenedorPadrinos p{
+        text-align: center;
+        font-size: 1.5rem;
+        
+    }
+    /* 
     .imgClass{
       
         background: url("../multimedia/fondo600w.jpg");
@@ -20,7 +60,7 @@
         align-content: center;
         border-style: none;
         border: none;
-    }
+    } */
    /* .imagenFondo2{
         display: grid;
         grid-template-columns: 100%;
@@ -38,10 +78,32 @@
     }
     .titulogaleria, .horaClass h3 {
  
-        font-size: 23px;
+
+        padding-top:1rem;  
+        font-size: 1.2rem;
+
+        letter-spacing: 1px;
     }
+    .seccionCentral{
+        width: 100%;
+    }
+    .tituloPadrinos {
+        padding-top:1rem;
+        font-size: 1.2rem;
+
+    }
+    .contenedorPadrinos{
+        font-size: 1.5rem;
+    }  
+    .contenedorPadrinos p{
+        margin: 0rem;
+    }
+    
     .horaClass p {
         font-size: 18px;
+    }
+    #typ{
+        margin-top: 2rem;
     }
 
     .cuenta-atras {
@@ -63,14 +125,19 @@
     }
 
 
+    h4{
+        text-align: center;
+    }
     
-.presencia{
 
+    .presencia{
+    
+    max-width: max-content;
+    height: auto;
     padding-top: 100px;
-    padding-bottom: 100px;
-}
-}
+    padding-bottom: 100px;}
 
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
