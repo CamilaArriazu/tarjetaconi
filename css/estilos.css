@@ -9,7 +9,7 @@
     position: fixed;
     z-index: 1;
     width: 100%;
-    
+        
 }
 
 
@@ -38,10 +38,18 @@ li {
 }
 
 .tituloCentral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 100%;
+    position: absolute;
+    margin: auto;
     top: 200px;
     height: auto;
-    width: 400px;
+
     text-align: center;
     color:   #2B2B2B;;
 }
@@ -132,6 +140,15 @@ h2 {
     transform: scale(1.5); 
 }
   */
+.carousel-item{
+    margin-left: 0px;
+    margin: auto;
+    top: 0px;
+}
+.navbar{
+   position: absolute;
+   top: 0px;
+}
 
 main {
     /*background-image: url("../multimedia/portada.jpeg");*/
@@ -143,10 +160,13 @@ main {
    /*  padding-top: 0px;
     padding-bottom: 0px; */
 
-    display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
+    top: 0px;
+}
+.carousel-inner{
+    top: 0px;
 }
 
 .carousel-fade .carousel-item {
@@ -380,6 +400,8 @@ button {
 .white {
     /*color: white;*/
     color: #2B2B2B;
+    max-width: 35%;
+    margin: auto;
 }
 
 .titulogaleria{
@@ -407,6 +429,7 @@ button a{
 }
 .ornamento{
     width: 200px;
+    margin-top: 2rem;
 
 }
 
