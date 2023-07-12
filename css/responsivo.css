@@ -1,3 +1,11 @@
+
+@media only screen and (max-width: 1100px) {
+    .centradorow div img, .centradorow div iframe{
+        width: 90%;
+    }
+
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 700px) {
     main {
@@ -57,7 +65,7 @@
         margin-bottom: 2rem;
         text-align: center;
     }
-    .imgClass1{
+    /* .imgClass1{
         display: none;
     }
     .imgClass2{
@@ -66,7 +74,22 @@
         height: auto;
         margin: 0;
      
+    } */
+
+    .imgClass{
+        height: auto;
+        max-width: 100%;
+      
+    } 
+    .presencia2{
+        height: 0;
+        max-height:100px;
+        background-size:850px;
+        padding-top: 300px;
+        padding-bottom: 300px;
+        background-repeat: no-repeat;
     }
+
     .contenedorPadrinos {
         grid-template-columns:100%;
     }
@@ -76,17 +99,7 @@
         font-size: 1.5rem;
         
     }
-    /* 
-    .imgClass{
-      
-        background: url("../multimedia/fondo600w.jpg");
-        background-repeat: no-repeat;
-        height: 600px;
-        width: 600px;
-        align-content: center;
-        border-style: none;
-        border: none;
-    } */
+  
    /* .imagenFondo2{
         display: grid;
         grid-template-columns: 100%;
@@ -142,6 +155,7 @@
         
     .formBorde {
 
+        max-width: 100%;
         margin: 0px;
 
     }
@@ -154,7 +168,7 @@
     h4{
         text-align: center;
     }
-    
+  
 
     .presencia{
     
@@ -171,7 +185,44 @@
         font-size: 14px;
     }
 
+    .centradorow div img, .centradorow div iframe{
+        width: 100%;
+    }
+    .centradocolumn {
+        max-width: 100%;
+    }
+.centradocolumn form {
+        width: 100%;
+    }
+
 }
+
+@media only screen and (max-width: 450px) {
+    .formBorde{
+        width: 90%;
+        height: auto;
+
+    }
+
+    .horaClass{
+        max-width: 100%;
+        max-height: 80px;
+    }
+
+    .presencia2{
+        height: 500px;
+        max-height:400px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding: 0px;
+    }
+
+    .navbar{
+        width: fit-content;
+    }
+}
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
