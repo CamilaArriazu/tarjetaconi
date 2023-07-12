@@ -176,7 +176,7 @@ h3 {
     height: 300px;
 }
 .seccionCentral{
-    
+
 }
 .horaClass h3 {
     text-align: center;
@@ -231,8 +231,8 @@ h3 {
     justify-self: center;
     justify-items: center;
     max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0px;
+    margin-left: 0px;
     letter-spacing: .7px;
     margin-top: 2rem;
     color: #818181;
@@ -278,6 +278,7 @@ form{
 }*/
 .imgClass1{
     display: block;
+    max-width: 100%;
 }
 .imgClass2{
     display:none;
@@ -379,4 +380,13 @@ button a{
 
 #cbu{
     margin-bottom: 3rem;
+}
+
+.cbuParrafo{
+    max-width: 90%;
+}
+.cbuParrafo p{
+    font-weight: bolder;
+    font-size: 18px;
+    margin: auto;
 }

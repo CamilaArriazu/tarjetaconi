@@ -2,10 +2,7 @@
 @media only screen and (max-width: 700px) {
     main {
         
-        /* filter:sepia(30%) ;*/
-        /*   filter: grayscale(1) blur(1px) contrast(1) sepia(0.5) blur(0.25px);*/
-        /* -webkit-mask: radial-gradient(#000, #000a); */
-        background-size: cover;
+       background-size: cover;
         background-position: center;
         padding-top: 200px;
         padding-bottom: 200px;
@@ -15,6 +12,31 @@
         justify-content: center;
         align-items: center;
     }
+
+    .ornamento{
+        margin:auto;
+        width: 50%;
+        
+    }
+     
+    .tituloCentral {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        top: 100px;
+    
+    }
+    .tituloCentral h1{
+        
+        font-size: 2.5rem;
+    }
+    .textCentral {
+         max-width: 80%;
+         margin: auto;
+        font-size: 17px;
+    }
+    
+
 
     .center{
         max-width: 80%;
@@ -136,6 +158,11 @@
     height: auto;
     padding-top: 100px;
     padding-bottom: 100px;}
+
+    .cbuParrafo{
+        width: 100%;
+        margin-top: 1rem;
+    }
 
 }
 /* Medium devices (landscape tablets, 768px and up) */
