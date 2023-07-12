@@ -1,5 +1,5 @@
 * {
-    font-family: 'Quicksand', sans-serif;
+   font-family: 'Quicksand', sans-serif;
 }
 
 .navbar {
@@ -165,8 +165,9 @@ h3 {
 /* SECCION HORA */
 .horaClass {
     font-family: "Cormorant Garamond", Sans-serif;
-    background-image: url("../multimedia/fondoTiempo2.jpg");
-
+    background-image: url("../multimedia/fondo.jpeg");
+   
+    backdrop-filter: blur(50px);
     background-size: cover;
     background-position: center;
     padding-bottom: 400px;
@@ -262,6 +263,7 @@ h3 {
     font-size: 15px;
     letter-spacing: .7px;
     padding-top: 6px;
+    margin-bottom: 0;
 }
 
 /*
@@ -271,6 +273,31 @@ form{
     padding: white;
 }*/
 
+.imgClass{
+      
+    background: url("../multimedia/fondo1366w.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: unset;
+    height: 800px;
+    width: 1500px;
+  
+}
+
+/*
+.imagenFondo2{
+    display: grid;
+    grid-template-columns: 100%;
+
+    background: url("../multimedia/fondo1366w.jpg");
+    background-image: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}*/
 
 .fotoClass {
     display: grid;
@@ -334,4 +361,8 @@ button a{
 }
 .ornamento{
     width: 300px;
+}
+
+#cbu{
+    margin-bottom: 3rem;
 }
