@@ -140,8 +140,8 @@ main {
     /* -webkit-mask: radial-gradient(#000, #000a); */
  /*   background-size: cover;
     background-position: center;*/
-  /*  padding-top: 300px;
-    padding-bottom: 400px;*/
+   /*  padding-top: 0px;
+    padding-bottom: 0px; */
 
     display: flex;
     flex-direction: column;
@@ -286,9 +286,10 @@ h3 {
 
 .formBorde {
     width: 100px;
-    border: double .2rem #967c5e;
+    border: double .2rem #aa967f;
     margin: 10px;
     text-align: center;
+    background: #ffffff34;
 }
 
 .formBorde P {

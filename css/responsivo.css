@@ -4,13 +4,16 @@
         
        background-size: cover;
         background-position: center;
-        padding-top: 200px;
-        padding-bottom: 200px;
+        padding-top: 0px;
+        padding-bottom: 0px;
        
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .navbar{
+        display: none;
     }
 
     .ornamento{
@@ -23,7 +26,7 @@
         display: flex;
         flex-direction: column;
         align-content: center;
-        top: 100px;
+        top: 4rem;
     
     }
     .tituloCentral h1{
@@ -162,6 +165,9 @@
     .cbuParrafo{
         width: 100%;
         margin-top: 1rem;
+    }
+    .cbuParrafo p {
+        font-size: 14px;
     }
 
 }
