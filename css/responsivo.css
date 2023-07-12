@@ -1,9 +1,18 @@
 
 @media only screen and (max-width: 1100px) {
     .centradorow div img, .centradorow div iframe{
-        width: 90%;
+        width: 100%;
     }
+    
+    .centradorow .imgDressCode{
+        width: 70%;
+        margin: auto;
+     }
 
+     .centradorow .imgDireccion{
+        width: 100%;
+   
+     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -42,8 +51,15 @@
         
         font-size: 2.5rem;
     }
+   
+    .white {
+        max-width: 65%; 
+        margin: auto;
+       font-size: 17px;
+   }
+   
     .textCentral {
-         max-width: 80%;
+         max-width: 65%; 
          margin: auto;
         font-size: 17px;
     }
@@ -60,6 +76,20 @@
         flex-direction: column;
          justify-content: space-evenly;
          align-items: center;
+        width: 100%;
+        height: auto;
+        margin: auto;
+
+
+     }
+     .centradorow .imgDireccion{
+        width: 100%;
+   
+     }
+
+     .centradorow .imgDressCode{
+        width: 70%;
+        margin: auto;
      }
      .centradoDireccion {
         margin-bottom: 2rem;
@@ -82,11 +112,11 @@
       
     } 
     .presencia2{
-        height: 0;
-        max-height:100px;
-        background-size:850px;
-        padding-top: 300px;
-        padding-bottom: 300px;
+      
+        max-height:800px;
+      /*  background-size:850px;*/
+        padding-top: 200px;
+        padding-bottom: 200px;
         background-repeat: no-repeat;
     }
 
@@ -112,14 +142,14 @@
     
     }*/
     .horaClass{
-     
+        padding-top: 50px;
         padding-bottom: 276px;
     }
     .titulogaleria, .horaClass h3 {
  
 
-        padding-top:1rem;  
-        font-size: 1.2rem;
+        padding-top:2.5rem;  
+        font-size: 1.5rem;
 
         letter-spacing: 1px;
     }
@@ -198,6 +228,16 @@
 }
 
 @media only screen and (max-width: 450px) {
+    .tituloCentral h1, .tituloCentral h2, .textCentral{
+        color:antiquewhite;
+    }
+
+    .textCentral { 
+        max-width:70%;
+        margin: auto;
+       font-size: 17px;
+   } 
+
     .formBorde{
         width: 90%;
         height: auto;
@@ -205,20 +245,25 @@
     }
 
     .horaClass{
+        padding-top: 50px;
         max-width: 100%;
         max-height: 80px;
     }
 
     .presencia2{
-        height: 500px;
-        max-height:400px;
+        
+
+        max-height:500px;
         margin-top: 15px;
-        margin-bottom: 50px;
+        margin-bottom: 0;
         padding: 0px;
     }
 
     .navbar{
         width: fit-content;
+    }
+    .titulogaleria, .horaClass h3 {
+       font-size: 1.2rem;    
     }
 }
 
