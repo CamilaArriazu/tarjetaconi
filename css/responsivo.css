@@ -44,7 +44,7 @@
 		display: none;
 	}
 
-	.ornamento {
+	.tituloCentral .ornamento {
 		margin: auto;
 		width: 50%;
 		margin-top: 0px;
@@ -145,17 +145,7 @@
 
 	}
 
-	/* .imagenFondo2{
-        display: grid;
-        grid-template-columns: 100%;
-        text-align: center;
-        background: url("../multimedia/fondo600w.jpg");
-        background-repeat: no-repeat;
-        height: 600px;
-        width: 600px;
-        align-content: center;
-    
-    }*/
+	
 	.horaClass {
 		height: 30vh;
 		padding-top: 2rem;
@@ -339,7 +329,7 @@
 
 	.centradocolumn {
 		margin: auto;
-		padding-top: 1%;
+		padding-top: 5%;
 
 	}
 
