@@ -281,6 +281,7 @@
 	.tituloCentral h2,
 	.textCentral {
 		color: #2B2B2B;
+		padding-top: 0%;
 	}
 
 	.textCentral {
@@ -338,7 +339,7 @@
 
 	.centradocolumn {
 		margin: auto;
-		padding-top: 5%;
+		padding-top: 1%;
 
 	}
 
